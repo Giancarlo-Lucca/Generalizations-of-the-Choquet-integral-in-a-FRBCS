@@ -51,7 +51,7 @@ Type of aggregation =  If the Choquet FMR is picked, have the following options:
 
 ---
 # Download and Citation Request
-Each aproach is related with the Choquet integral and its generalizations as published in the literature. Please, in case this code or any function is used for scientific or academic purposes, include a citation to this paper as one of the following:
+Each aproach is related with the Choquet integral and its generalizations as published in the literature licensed under CC BY-NC 4.0.. Please, in case this code or any function is used for scientific or academic purposes, include a citation to this paper as one of the following:
 
 1 - E. Barrenechea, H. Bustince, J. Fernandez, D. Paternain, and J. Sanz. Using the Choquet integral in the fuzzy reasoning method of fuzzy rule-based classification systems. Axioms, 2(2):208–223, 2013.
 
