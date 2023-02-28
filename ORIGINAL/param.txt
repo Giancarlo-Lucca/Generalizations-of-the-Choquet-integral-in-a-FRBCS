@@ -15,4 +15,4 @@ Alpha = 0.02
 Bits per Gene = 30
 Type of Inference = 2
 Type of fuzzy measure = 5
-Type of aggregation = 1
+Type of aggregation = 2
