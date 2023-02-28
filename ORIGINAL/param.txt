@@ -1,7 +1,7 @@
 algorithm = FARCHD
 
 inputData = "./data/iris/iris-10-1tra.dat" "./data/iris/iris-10-1tra.dat" "./data/iris/iris-10-1tst.dat"
-outputData = "accTraining.txt" "accTest.txt" "membershipFunctions.txt"  "ruleBase.txt"  "time.txt"  "hora.txt"  "rules.txt"  "evolution.txt"  "fileBehaviorTR.txt"  "fileBehaviorTST.txt"
+outputData = "accTraining.txt" "accTest.txt" "membershipFunctions.txt"  "ruleBase.txt"  "time.txt"  "hora.txt"  "rules.txt"  "evolution.txt" (these last 4 files are commented in the bull file)
 
 Seed = 53743421
 Number of Labels = 5
