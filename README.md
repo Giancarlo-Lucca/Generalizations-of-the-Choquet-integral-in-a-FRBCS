@@ -8,7 +8,14 @@ It is important to mention that the FARC-HD original code as well as the complet
 
 [KEEL] I. Triguero, S. González, J. M. Moyano, S. García, J. Alcalá-Fdez, J. Luengo, A. Fernández, M. J. del Jesus, L. Sánchez, F. Herrera. KEEL 3.0: An Open Source Software for Multi-Stage Analysis in Data Mining International Journal of Computational Intelligence Systems 10 (2017) 1238-1249, . 
 
-# St
+# Repository structure
+In the master branch you will find the java project divided into two folders, (i) FARC-HD-Choquet/src, containing the project files and (ii) ORIGINAL wich contain the core of the code. In the second folder the main different .txt files that are related with the execution are:
+- DataSet.txt: A list of datasets that can be used as toy examples which can be setted in the paramether file
+- accTest.txt: The detailed classification obtained in test
+- accTrain.txt: The detailed classification in training
+- MembershipFunctions.txt: The relation of the values used in the triangular membership function per variable
+- Param.txt: The configuration file (detailed above)
+- RuleBase.txt: The generated rules as well as their confidence factor
 
 
 # Parameters
@@ -17,8 +24,8 @@ To run the code you have to open the project in an IDE and config a parameter se
 ----
 algorithm = FARCHD
 
-inputData = "./data/iris/iris-10-1tra.dat" "./data/iris/iris-10-1tra.dat" "./data/iris/iris-10-1tst.dat"
-outputData = "accTraining.txt" "accTest.txt" "membershipFunctions.txt"  "ruleBase.txt"  "time.txt"  "hora.txt"  "rules.txt"  "evolution.txt"  "fileBehaviorTR.txt"  "fileBehaviorTST.txt"
+inputData = "./data/iris/iris-10-1tra.dat" "./data/iris/iris-10-1tra.dat" "./data/iris/iris-10-1tst.dat" (can be replaced by different datasets, as metioned we picked the ones from keel dataset repositoby)
+outputData = "accTraining.txt" "accTest.txt" "membershipFunctions.txt"  "ruleBase.txt" "time.txt"  "hora.txt"  "rules.txt"  "evolution.txt" (these last 4 files are commented in the bull file)
 
 Seed = 53743421
 Number of Labels = 5
